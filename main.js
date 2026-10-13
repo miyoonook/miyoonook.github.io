@@ -45,7 +45,7 @@ const modSections = [
     items: [
       { title: "NPC Map Locations", link: "https://www.nexusmods.com/stardewvalley/mods/239", keyword: "정보", color: "var(--badge-skyblue)", transLink: "https://www.nexusmods.com/stardewvalley/mods/31190" },
       { title: "Lookup Anything", link: "https://www.nexusmods.com/stardewvalley/mods/541", keyword: "정보", color: "var(--badge-skyblue)", transLink: "https://www.nexusmods.com/stardewvalley/mods/31202" },
-      { title: "UI Info Suite 2", link: "https://www.nexusmods.com/stardewvalley/mods/7098", keyword: "정보", color: "var(--badge-skyblue)", transLink: "https://www.nexusmods.com/stardewvalley/mods/31194" },
+      { title: "UI Info Suite 2", link: "https://www.nexusmods.com/stardewvalley/mods/43127", keyword: "정보", color: "var(--badge-skyblue)", transLink: "https://www.nexusmods.com/stardewvalley/mods/31194" },
       { title: "Chests Anywhere", link: "https://www.nexusmods.com/stardewvalley/mods/518", keyword: "인벤토리", color: "var(--badge-blue)", transLink: "" },
       { title: "Unlimited Storage", link: "https://www.nexusmods.com/stardewvalley/mods/30323", keyword: "인벤토리", color: "var(--badge-blue)", transLink: "" },
       { title: "MH Categories Chest", link: "https://www.nexusmods.com/stardewvalley/mods/38771", keyword: "인벤토리", color: "var(--badge-blue)", transLink: "" },
