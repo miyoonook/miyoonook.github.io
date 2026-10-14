@@ -165,6 +165,7 @@ const modSections = [
       { title: "VPR-Inspired UI", link: "https://www.nexusmods.com/stardewvalley/mods/17912", keyword: "UI리텍", color: "var(--badge-mint)", transLink: "" },
       { title: "Smaller Mouse Cursors", link: "https://www.nexusmods.com/stardewvalley/mods/7458", keyword: "UI리텍", color: "var(--badge-mint)", transLink: "" },
       { title: "canvas buffs icons", link: "https://www.nexusmods.com/stardewvalley/mods/33547", keyword: "UI리텍", color: "var(--badge-mint)", transLink: "" },
+      { title: "[미유자체제작] miyoo's Currency Font Retexture", link: "./[CP] miyoo's Currency Font Retexture.zip", keyword: "UI리텍", color: "var(--badge-mint)", transLink: "" },
     ],
   },
 
