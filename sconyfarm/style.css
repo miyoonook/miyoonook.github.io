@@ -1,0 +1,211 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 24px;
+  line-height: 1.5;
+  color: #222;
+  background-color: #f6f6f6;
+  font-family: "PyeojinGothic", sans-serif;
+  word-break: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  margin: 0;
+  font: inherit;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* === End === */
+
+@import url("https://cdn.jsdelivr.net/gh/Jihwan-Suh/PyeojinGothic/CSS/pyeojin-font.css");
+
+@font-face {
+  font-family: "LongingSobokhee";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/2610081753@griun-sobokhee-rg/griun-sobokhee-rg/Griun_Sobokhee-Rg.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+body::selection {
+  background-color: rgba(255, 90, 90, 0.7);
+  color: #fff;
+}
+
+.header-logo {
+  background-image: url(./images/header-logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: min(100%, 280px) auto;
+  height: 160px;
+  margin: 24px 0;
+}
+
+.web-info {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.body-wrap {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.s-icon {
+  background-image: url(./images/section-icon.svg);
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 36px;
+}
+
+.s-title {
+  font-family: "LongingSobokhee";
+  font-size: 24px;
+  line-height: 36px;
+  margin-left: 4px;
+}
+
+.mods-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.mods-list {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 24px;
+  width: calc((100% - 32px) / 3);
+}
+
+.keyword {
+  color: #0078ff;
+  font-size: 14px;
+}
+
+.name {
+  font-family: "LongingSobokhee";
+  font-size: 20px;
+}
+
+.description {
+  color: #aaa;
+  font-size: 14px;
+  height: 42px;
+}
+
+.btn-translation .enabled {
+  display: block;
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 16px;
+  text-align-last: center;
+  padding: 16px 0;
+  font-weight: 600;
+  color: #666;
+}
+
+.btn-translation .disabled {
+  display: block;
+  width: 100%;
+  background-color: #f6f6f6;
+  border-radius: 16px;
+  text-align-last: center;
+  padding: 16px 0;
+  font-weight: 600;
+  color: #ddd;
+  cursor: not-allowed;
+}
+
+.btn-download a {
+  display: block;
+  width: 100%;
+  background-color: #222;
+  border-radius: 16px;
+  text-align: center;
+  padding: 16px 0;
+  font-weight: 600;
+  color: white;
+}
+
+/*모바일 768*/
+
+@media (max-width: 767px) {
+  .mods-list {
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 24px;
+    width: 100%;
+  }
+
+  .header-logo {
+    background-size: min(100%, 200px) auto;
+    height: 100px;
+    margin: 24px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 899px) {
+  .mods-list {
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 24px;
+    width: calc((100% - 16px) / 2);
+  }
+}
