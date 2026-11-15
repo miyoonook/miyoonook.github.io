@@ -228,6 +228,13 @@ const modData = [
         transLink: "",
       },
       {
+        keyword: "작물/아이템",
+        title: "Retro Style Crops",
+        description: "땅 위에 자라나는 작물 외형 리텍스쳐 모드",
+        link: "https://www.nexusmods.com/stardewvalley/mods/18383",
+        transLink: "",
+      },
+      {
         keyword: "동물",
         title: "MIDI's Coop Animal",
         description: "닭장 동물 리텍스쳐 모드",
