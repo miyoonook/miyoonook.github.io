@@ -226,7 +226,7 @@ const modSections = [
       { title: "빅티 님 : 결혼가능 NPC 초상화 리텍 (Victy's Marriageable NPC Portrait Retextures)", link: "https://cafe.naver.com/starvall/438937", keyword: "초상화", color: "var(--badge-orange)", transLink: "" },
       { title: "빅티 님 : 대확장 모드 소피아 (Victy's SVE Portrait Retextures:Sophia)", link: "https://naver.me/xZKHMpi4", keyword: "초상화", color: "var(--badge-orange)", transLink: "" },
       { title: "빅티 님 : 대확장 모드 올리비아 (Victy's SVE Portrait Retextures:Olivia)", link: "https://cafe.naver.com/starvall/410957", keyword: "초상화", color: "var(--badge-orange)", transLink: "" },
-      { title: "빅티 님 : 대확장 모드 클레어 (Victy's SVE Portrait Retextures:Claire)", link: "https://cafe.naver.com/starvall/410957", keyword: "초상화", color: "var(--badge-orange)", transLink: "" },
+      { title: "빅티 님 : 대확장 모드 클레어 (Victy's SVE Portrait Retextures:Claire)", link: "https://cafe.naver.com/starvall/412939", keyword: "초상화", color: "var(--badge-orange)", transLink: "" },
       { title: "빅티 님 : 대확장 모드 모리스 (Victy's SVE Portrait Retextures:Morris)", link: "https://naver.me/GKIu0Pm4", keyword: "초상화", color: "var(--badge-orange)", transLink: "" },
       { title: "빅티 님 : 대확장 모드 랜스 (Victy's SVE Portrait Retextures:Lance)", link: "https://cafe.naver.com/starvall/396617", keyword: "초상화", color: "var(--badge-orange)", transLink: "" },
       { title: "빅티 님 : 대확장 모드 빅터 (Victy's SVE Portrait Retextures:Victor)", link: "https://naver.me/GGG6rMe2", keyword: "초상화", color: "var(--badge-orange)", transLink: "" },
@@ -262,7 +262,7 @@ function getTransLink(transLink) {
     return `<span style="color: #ccc">본문에 포함</span>`;
   } else if (transLink && transLink !== "") {
     return `
-      <a href="${transLink}" target="_blank">
+      <a href="${transLink}" target="_blank" rel="noopener noreferrer">
         <i class="fa-solid fa-link" style="color: #ccc"></i>
         <span>번역링크</span>
       </a>
@@ -295,7 +295,7 @@ function renderTables() {
               (item) => `
               <tr>
                 <td>
-                  <a href="${item.link}" target="_blank">${item.title}</a>
+                  <a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a>
                 </td>
                 <td>
                   <div class="col-badge d-inline" style="background-color: ${item.color};">${item.keyword}</div>
