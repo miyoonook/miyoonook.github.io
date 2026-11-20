@@ -119,6 +119,13 @@ const modData = [
       },
       {
         keyword: "그래픽",
+        title: "Elle's Dirt and Cliff Recolor",
+        description: "지형의 흙 색을 자연스럽게 변경해주는 모드",
+        link: "https://www.nexusmods.com/stardewvalley/mods/1966",
+        transLink: "",
+      },
+      {
+        keyword: "그래픽",
         title: "Dynamic Windows",
         description: "창 밖의 풍경을 보여주는 모드",
         link: "https://www.nexusmods.com/stardewvalley/mods/35690",
